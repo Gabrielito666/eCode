@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor Movil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="b_html" disabled>HTML File</button><button id="b_script" disabled>Script File</button><button Id="b_page" disabled>Page</button>
+    </header>
+        <section id="d_html">
+            <h1>HTML</h1>
+<pre><code> 
+&lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Editor Movil&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        <textarea id="t_html" value="" spellcheck="false"></textarea>
+    &lt;/body&gt;
+    &lt;script src="userScript.js"&gt;&lt;/script&gt;
+&lt;/html&gt;
+</code></pre>
+        </section>
+        <section id="d_script" hidden>
+            <h1>Script</h1>
+            <pre>
+<textarea id="t_script" value="" spellcheck="false"></textarea>
+            </pre>
+        </section>
+        <section id="d_page"  hidden>
+            <h1>Page</h1>
+            <div id="s_body"></div>
+            <div id="d_console">
+                <h1>Console</h1>
+                <div id="s_console"></div>
+            </div>
+        </section>
+</body>
+<script src="script.js"></script>
+<script id="s_script"></script>
+</html>

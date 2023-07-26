@@ -1,0 +1,46 @@
+header{
+    position: fixed;
+    right: 1vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+section{
+    position: fixed;
+    width: 98vw;
+    height: 98vh;
+}
+
+pre, #s_body, #s_console{
+    width: 95%;
+    border: solid 2px black;
+    border-radius: 5vw;
+    overflow-y: auto;
+}
+pre{
+    height: 80%;
+    white-space: pre;
+    overflow-x: auto;
+}
+#s_body{
+    height: 60vh;
+}
+#s_console{
+    height: 10vh;
+    
+}
+#t_html{
+    height: 15%;
+    width: 75%;
+}
+#t_script{
+    position: relative;
+    top :5%;
+    left : 5%;
+    height: 50%;
+    width: 88%;
+}
+textarea{
+    white-space: nowrap;
+    overflow: auto;
+}
